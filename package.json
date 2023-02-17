@@ -1,0 +1,33 @@
+{
+  "name": "react-and-express-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "clear && concurrently 'vite' 'node server.js'",
+    "dev": "clear && concurrently 'vite' 'nodemon server.js'",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "mocha ./tests/**.js"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "mocha": "^10.2.0",
+    "mongoose": "^6.9.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.5",
+    "react-router-dom": "^6.8.1",
+    "remarkable-react": "^1.4.3",
+    "sinon": "^15.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.3.3",
+    "vite": "^2.9.0"
+  }
+}

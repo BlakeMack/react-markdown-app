@@ -1,0 +1,35 @@
+.App {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.markdown-container {
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.markdown-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.btn-save {
+  background-color: blue;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+}
+
+pre {
+  background-color: #F7F7F7;
+  padding: 20px;
+}
+
+textarea {
+  color: grey;
+}
