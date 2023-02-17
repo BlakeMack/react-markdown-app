@@ -1,6 +1,6 @@
 # React Markdown app
 
-This is application uses React and Express to render and serve Markdown content. It includes a server that uses the Express framework, a React front-end, and a Markdown parser using the react-markdown package.
+This application uses React and Express to render and serve Markdown content. It includes a server that uses the Express framework, a React front-end, and a Markdown parser using the react-markdown package.
 
 Getting Started
 To get started, clone this repository to your local machine and run the following command to install all required dependencies:
