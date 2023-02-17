@@ -45,6 +45,8 @@ This app uses the following dependencies:
 
 * dotenv: For loading environment variables
 
+Note: You will also need a .env file within the root directory file with a link to your MONGO DB URI to connect your MONGO DB collection within the logic of the app. 
+
 
 # Dev Dependencies
 This app uses the following development dependencies:
