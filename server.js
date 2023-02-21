@@ -2,8 +2,6 @@ const express = require("express");
 const path = require("path");
 const routes = require('./routes/routes');
 
-// app.use(bodyParser.json());
-
 const app = express();
 const mongoose = require('mongoose');
 require('dotenv').config();

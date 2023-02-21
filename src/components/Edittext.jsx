@@ -1,10 +1,9 @@
 import React from 'react'
 import { useState } from 'react'
 import Markdown from './Markdown'
-import { Form } from 'react-router-dom'
 
 const Edittext = ({file}) => {
-  const [UserText, setUserText] = useState(file.text || "")
+  const [UserText, setUserText] = useState(file.text)
 
   const handleSubmit = (e) => {
     e.preventDefault();

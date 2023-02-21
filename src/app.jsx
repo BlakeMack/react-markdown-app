@@ -1,7 +1,5 @@
-import { useState, useEffect, useContext } from "react";
 import "./app.css"
 import Edittext from "./components/Edittext";
-import { Context } from "./context";
 import { useLoaderData } from "react-router-dom";
 
 export async function loader({ params }) {
@@ -12,8 +10,8 @@ export async function loader({ params }) {
     const response = await fetch("/api/getAll");
     const data = await response.json();
     files = data;
-    if (files.some((file) => file.name === params.contactId)) {
-      const file = files.find(file => file.name === params.contactId);
+    if (files.some((file) => file.name === params.fileId)) {
+      const file = files.find(file => file.name === params.fileId);
       return file
     } else {
       const response = await fetch("/api/post", {
@@ -22,7 +20,7 @@ export async function loader({ params }) {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-          name: params.contactId,
+          name: params.fileId,
           text: "# Write your markdown here"
         })
       });

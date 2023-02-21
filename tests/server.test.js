@@ -1,17 +1,8 @@
 
-// implemented endpoints
-// create a new file
-// get all files
-// update a file by its name
 
 const {expect} = require('chai');
 const request = require('supertest');
-// create a new file
 const app = require("../server")
-
-
-
-// get all files
 
 describe("Get all files endpoint", () => {
   it("responds with json", () => {
@@ -35,8 +26,6 @@ describe("Get all files endpoint", () => {
   })
 })
 
-
-// // update a file by its name
 describe('should correctly update a file by its name', () => {
   it("should select and update the relevant file from the name given", () => {
     request(app)
@@ -54,7 +43,6 @@ describe('should correctly update a file by its name', () => {
   })
 })
 
-// create a post
 describe('POST Create a file', () => {
   it('should create a file', () => {
       request(app)
