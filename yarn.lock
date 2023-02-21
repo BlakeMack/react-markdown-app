@@ -3114,11 +3114,6 @@
     "mdast-util-to-hast" "^12.1.0"
     "unified" "^10.0.0"
 
-"remarkable-react@^1.4.3":
-  "integrity" "sha512-CFxh/VKM/a5SWHu9woY+wK5Y1KrFqMep0s8LS3Wuc2fDMS+eA0T3Y75fZXtKawwCLtT4+tR4ileBm2a7KnTaGQ=="
-  "resolved" "https://registry.npmjs.org/remarkable-react/-/remarkable-react-1.4.3.tgz"
-  "version" "1.4.3"
-
 "require-directory@^2.1.1":
   "integrity" "sha512-fGxEI7+wsG9xrvdjsrlmL22OMTTiHRwAMroiEeMgq8gzoLC/PQr7RsRDSTLUg/bZAZtF+TVIkHc6/4RIKrui+Q=="
   "resolved" "https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz"
